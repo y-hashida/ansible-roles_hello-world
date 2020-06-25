@@ -1,0 +1,8 @@
+---
+# tasks/main.yml (hello-world)
+# Prefix : hello
+
+- name: Copy using inline content
+  copy:
+    content: "Hello, ansible!"
+    dest: "/tmp/hello.txt"
